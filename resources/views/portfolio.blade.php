@@ -3,121 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Edward Globio | Portfolio</title>
+    <title>Portfolio | Home</title>
 
-    <!-- Tailwind CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind (Vite for Laravel) -->
+    @vite('resources/css/app.css')
 </head>
+<body class="bg-gray-50 text-gray-800">
 
-<body class="bg-gray-50 text-gray-900">
+    <!-- Navbar -->
+    <header class="bg-white shadow-sm fixed top-0 left-0 w-full z-50">
+        <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-tight">MyPortfolio</h1>
 
-    <!-- NAVBAR -->
-    <nav class="w-full py-5 bg-white shadow">
-        <div class="max-w-6xl mx-auto flex justify-between items-center px-4">
-            <h1 class="text-2xl font-bold">JEG Portfolio</h1>
-            <div class="space-x-6">
-                <a href="#about" class="hover:text-blue-600">About</a>
-                <a href="#projects" class="hover:text-blue-600">Projects</a>
-                <a href="#contact" class="hover:text-blue-600">Contact</a>
-            </div>
-        </div>
-    </nav>
+            <ul class="hidden md:flex space-x-8 font-medium">
+                <li><a href="#" class="hover:text-blue-600">Home</a></li>
+                <li><a href="/about" class="hover:text-blue-600">About</a></li>
+                <li><a href="/projects" class="hover:text-blue-600">Projects</a></li>
+                <li><a href="/contact" class="hover:text-blue-600">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <!-- HERO SECTION -->
-    <section class="max-w-6xl mx-auto px-4 py-20 flex flex-col md:flex-row items-center">
-        <div class="flex-1">
-            <h2 class="text-4xl md:text-5xl font-bold leading-tight">
-                Hi, I'm <span class="text-blue-600">John Edward Globio</span><br>
-                Full-Stack Web Developer
+
+<!-- Hero Section -->
+<section class="relative h-screen">
+
+    <!-- Background image -->
+    <div class="absolute inset-0 bg-cover bg-center"
+        style="background-image: url('https://images3.alphacoders.com/130/1304193.jpeg');">
+    </div>
+
+    <!-- Dark overlay -->
+    <div class="absolute inset-0 bg-black/50"></div>
+
+    <!-- Content -->
+    <div class="relative max-w-6xl mx-auto px-6 h-full flex flex-col md:flex-row items-center justify-center gap-12">
+
+        <!-- Text -->
+        <div class="text-center md:text-left">
+            <h2 class="text-4xl md:text-5xl font-extrabold leading-tight mb-4 text-white">
+                Hi, I'm <span class="text-blue-300">John Edward G. Globio</span>
             </h2>
 
-            <p class="mt-4 text-lg text-gray-600">
-                Passionate about building modern, responsive, and user-friendly web applications.
-                I enjoy transforming ideas into functional digital experiences.
+            <p class="text-lg text-gray-200 mb-6">
+                A passionate web developer who loves building clean, modern, and user-focused websites.
             </p>
 
-            <a href="#projects"
-            class="mt-6 inline-block px-6 py-3 bg-blue-600 text-white rounded shadow hover:bg-blue-700">
-                View My Work
+            <a href="/projects" 
+            class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition">
+                View My Projects
             </a>
         </div>
 
-        <div class="flex-1 mt-10 md:mt-0 flex justify-center">
-            <img src="https://via.placeholder.com/350x350"
-                alt="Profile"
-                class="rounded-full shadow-lg border-4 border-blue-600">
+        <!-- Image / Illustration -->
+        <div class="flex justify-center w-full md:w-1/2">
+            <img src="https://i.pinimg.com/736x/08/8c/a7/088ca7d250055c9615687e61b3d00248.jpg"
+                class="w-3/4 md:w-full rounded-xl shadow-lg border border-white/20 object-cover"
+                alt="Portfolio Illustration">
         </div>
-    </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="py-20 bg-white">
-        <div class="max-w-5xl mx-auto px-4">
-            <h3 class="text-3xl font-bold text-center mb-6">About Me</h3>
-            <p class="text-center text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                My name is <strong>John Edward Globio</strong>, a passionate full-stack developer
-                with experience in PHP, Laravel, JavaScript, and modern web technologies.  
-                I specialize in responsive UI/UX, database-driven applications, and clean, maintainable code.
-            </p>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="py-20 bg-gray-100">
-        <div class="max-w-6xl mx-auto px-4">
-            <h3 class="text-3xl font-bold text-center mb-12">Projects</h3>
 
-            <div class="grid md:grid-cols-3 gap-8">
 
-                <!-- PROJECT CARD -->
-                <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-xl transition">
-                    <img src="https://via.placeholder.com/600x400" class="w-full">
-                    <div class="p-5">
-                        <h4 class="font-bold text-xl mb-2">ComPets Adoption System</h4>
-                        <p class="text-gray-600">Pet adoption platform with user accounts, posts,
-                            comments, likes, admin tools, and real-time updates.</p>
-                    </div>
+    <!-- Skills Preview Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+
+            <h3 class="text-3xl font-bold mb-10">Skills Overview</h3>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="p-6 bg-gray-100 rounded-xl shadow hover:shadow-md transition">
+                    <h4 class="font-semibold text-lg">HTML</h4>
                 </div>
 
-                <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-xl transition">
-                    <img src="https://via.placeholder.com/600x400" class="w-full">
-                    <div class="p-5">
-                        <h4 class="font-bold text-xl mb-2">Portfolio Website</h4>
-                        <p class="text-gray-600">Personal responsive landing page highlighting my skills,
-                            projects, and contact information.</p>
-                    </div>
+                <div class="p-6 bg-gray-100 rounded-xl shadow hover:shadow-md transition">
+                    <h4 class="font-semibold text-lg">CSS</h4>
                 </div>
 
-                <div class="bg-white shadow rounded-lg overflow-hidden hover:shadow-xl transition">
-                    <img src="https://via.placeholder.com/600x400" class="w-full">
-                    <div class="p-5">
-                        <h4 class="font-bold text-xl mb-2">Real-Time Chat App</h4>
-                        <p class="text-gray-600">A simple yet powerful chat application built using PHP,
-                            JS, and Firebase for real-time messaging.</p>
-                    </div>
+                <div class="p-6 bg-gray-100 rounded-xl shadow hover:shadow-md transition">
+                    <h4 class="font-semibold text-lg">JavaScript</h4>
                 </div>
 
+                <div class="p-6 bg-gray-100 rounded-xl shadow hover:shadow-md transition">
+                    <h4 class="font-semibold text-lg">Laravel</h4>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="py-20 bg-white">
-        <div class="max-w-4xl mx-auto px-4 text-center">
-            <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
-            <p class="mb-8 text-gray-700">
-                Interested in working together? Let's connect!
-            </p>
-
-            <a href="mailto:johnedwardglobio@example.com"
-            class="px-6 py-3 bg-blue-600 text-white rounded shadow hover:bg-blue-700">
-                Email Me
-            </a>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="py-6 text-center bg-gray-900 text-white">
-        © {{ date('Y') }} John Edward Globio. All rights reserved.
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-900 text-white text-center">
+        <p>© 2025 Your Name. All rights reserved.</p>
     </footer>
 
 </body>
