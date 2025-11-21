@@ -1,4 +1,3 @@
-@include('components.header')
     @if($errors->any())
         <div style="color: red">
             @foreach($errors->all() as $error)
@@ -16,5 +15,3 @@
         <p>Password</p>
         <input type="password" name="password">
     </form>
-
-@include(view 'components.footer')

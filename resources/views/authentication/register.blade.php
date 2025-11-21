@@ -1,4 +1,4 @@
-@include('components.header')
+
     @if($errors->any())
         <div style="color: red">
             @foreach($errors->all() as $error)
@@ -23,5 +23,3 @@
         <input type="password" name="password_confimation">
         <input type="submit">
     </form>
-
-@include(view 'components.footer')
