@@ -8,22 +8,10 @@
     <!-- Tailwind (Vite for Laravel) -->
     @vite('resources/css/app.css')
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body class="bg-gray-50 text-gray-200">
 
     <!-- Navbar -->
-    <header class="bg-white shadow-sm fixed top-0 left-0 w-full z-50">
-        <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <h1 class="text-2xl font-bold tracking-tight">MyPortfolio</h1>
-
-            <ul class="hidden md:flex space-x-8 font-medium">
-                <li><a href="#" class="hover:text-blue-600">Home</a></li>
-                <li><a href="/about" class="hover:text-blue-600">About</a></li>
-                <li><a href="/projects" class="hover:text-blue-600">Projects</a></li>
-                <li><a href="/contact" class="hover:text-blue-600">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
+    @include ('partials.nav')
 
 <!-- Hero Section -->
 <section class="relative h-screen">
@@ -94,8 +82,8 @@
     </section>
 
     <!-- Footer -->
-    <footer class="py-6 bg-gray-900 text-white text-center">
-        <p>© 2025 Your Name. All rights reserved.</p>
+    <footer class="py-6 bg-gray-800 text-white text-center">
+        <p>© 2025 John Edward Globio. All rights reserved.</p>
     </footer>
 
 </body>
