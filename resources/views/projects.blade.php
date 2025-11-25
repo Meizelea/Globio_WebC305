@@ -28,23 +28,23 @@
             <div class="grid md:grid-cols-3 gap-8">
 
                 <div class="bg-gray-800/90 rounded-xl p-6 shadow-lg border border-gray-700 hover:transform hover:-translate-y-1 transition duration-300">
-                    <h2 class="text-2xl font-semibold text-indigo-300">Project One</h2>
+                    <h2 class="text-2xl font-semibold text-indigo-300">ComPets</h2>
                     <p class="text-gray-300 mt-3 text-sm leading-relaxed">
-                        A short description about your project. You can write what tech stack you used.
+                        Compets here
                     </p>
                 </div>
 
                 <div class="bg-gray-800/90 rounded-xl p-6 shadow-lg border border-gray-700 hover:transform hover:-translate-y-1 transition duration-300">
-                    <h2 class="text-2xl font-semibold text-indigo-300">Project Two</h2>
+                    <h2 class="text-2xl font-semibold text-indigo-300">AppDev something</h2>
                     <p class="text-gray-300 mt-3 text-sm leading-relaxed">
-                        Another sample project description. Replace with your real work.
+                        The Mobile app thingy proj in AppDev
                     </p>
                 </div>
 
                 <div class="bg-gray-800/90 rounded-xl p-6 shadow-lg border border-gray-700 hover:transform hover:-translate-y-1 transition duration-300">
-                    <h2 class="text-2xl font-semibold text-indigo-300">Project Three</h2>
+                    <h2 class="text-2xl font-semibold text-indigo-300">Hehe</h2>
                     <p class="text-gray-300 mt-3 text-sm leading-relaxed">
-                        You can add images, links, GitHub buttons, etc.
+                        Uhhh something??? I forgor all shi I made
                     </p>
                 </div>
 
