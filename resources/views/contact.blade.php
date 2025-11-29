@@ -7,11 +7,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-900 text-white">
+<body class="bg-gray-900 text-white flex flex-col min-h-screen">
 
     @include('partials.nav')
 
-    <div class="max-w-xl mx-auto py-20 px-6">
+    <div class="max-w-xl mx-auto py-20 px-6 flex-grow w-full">
 
         <h1 class="text-4xl font-bold mb-6 text-indigo-400">Contact Me</h1>
 
@@ -63,6 +63,10 @@
         @endauth
 
     </div>
+
+    <footer class="py-6 bg-gray-800 text-white text-center">
+        <p>© 2025 John Edward Globio. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
