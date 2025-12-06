@@ -1,18 +1,17 @@
-# Globio 🌐
+# Globio's Portfolio 🌐
 
 ![Project Status](https://img.shields.io/badge/status-active-success.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=flat&logo=laravel&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
 
-**Globio** is a robust web application built using the **Laravel** framework and styled with **Tailwind CSS**. This project serves as a portfolio/content management system featuring secure admin authentication, dynamic image handling, and a responsive modern UI.
+**Portfolio** is a robust web application built using the **Laravel** framework and styled with **Tailwind CSS**. This project serves as a portfolio/content management system featuring secure admin authentication, dynamic image handling, and a responsive modern UI.
 
 ---
 
 ## 📸 Screenshots
 
 ![Portfolio Preview](public/images/pic.jpg)
-*(Replace the path above with your actual screenshot path if different)*
 
 ---
 
