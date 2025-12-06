@@ -14,7 +14,7 @@
     <section class="relative h-screen flex items-center justify-center">
 
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('https://images3.alphacoders.com/130/1304193.jpeg');">
+            style="background-image: url('https://images.wallpapersden.com/image/download/milky-way-starry-sky-landscape_bGZqaGyUmZqaraWkpJRnaW5urWZpZWs.jpg');">
         </div>
 
         <div class="absolute inset-0 bg-black/50"></div>

@@ -7,11 +7,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-900 text-white flex flex-col min-h-screen">
+<body class="bg-gray-900 text-white flex flex-col min-h-screen" >
 
     @include('partials.nav')
 
     <div class="max-w-xl mx-auto py-20 px-6 flex-grow w-full">
+        
 
         <h1 class="text-4xl font-bold mb-6 text-indigo-400">Contact Me</h1>
 

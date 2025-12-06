@@ -12,7 +12,7 @@
     <section class="relative h-screen">
 
         <div class="absolute inset-0 bg-cover bg-center"
-            style="background-image: url('https://images3.alphacoders.com/130/1304193.jpeg');">
+            style="background-image: url('https://images.wallpapersden.com/image/download/milky-way-starry-sky-landscape_bGZqaGyUmZqaraWkpJRnaW5urWZpZWs.jpg');">
         </div>
 
         <div class="absolute inset-0 bg-black/50"></div>
@@ -35,7 +35,7 @@
             </div>
 
             <div class="flex justify-center w-full md:w-1/2">
-                <img src="https://i.pinimg.com/736x/08/8c/a7/088ca7d250055c9615687e61b3d00248.jpg"
+                <img src="{{ asset('images/pic.jpg') }}"
                     class="w-3/4 md:w-full rounded-xl shadow-lg border border-white/20 object-cover"
                     alt="Portfolio Illustration">
             </div>
